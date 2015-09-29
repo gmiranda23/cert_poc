@@ -1,0 +1,13 @@
+name 'cert_poc'
+maintainer 'The Authors'
+maintainer_email 'you@example.com'
+license 'all_rights'
+description 'Installs/Configures cert_poc'
+long_description 'Installs/Configures cert_poc'
+version '0.1.0'
+
+supports 'centos'
+supports 'amazon'
+depends  'yum'
+depends  'chef-dk'
+depends  'sudo'
