@@ -30,7 +30,7 @@ group "docker" do
   append true
 end
 
-%w(xz libcgroup).each do |dependency|
+%w(xz libcgroup device-mapper-libs).each do |dependency|
   package dependency
 end
 
