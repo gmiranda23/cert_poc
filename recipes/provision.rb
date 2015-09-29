@@ -45,7 +45,7 @@ with_driver 'aws::us-east-1' do
       :ssh_username => 'root',
       :bootstrap_options => {
         :image_id => 'ami-c2a818aa',
-        :instance_type => 'm3.medium',
+        :instance_type => 'm3.xlarge',
         :key_name => 'cert_poc_key',
         :security_group_ids => ['cert_poc']
       }
